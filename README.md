@@ -13,6 +13,13 @@
 
 Klone zuerst das Repository. Installiere und initialisiere dann Capacitor für die Plattform deiner Wahl. Baue die Applikation, installiere und teste sie.
 
+```bash
+npm i
+npx ng build
+npx cap sync
+npx cap open ios
+```
+
 ## Zusatzaufgabe
 
 Wenn du schnell fertig warst mit der obigen Aufgabe, versuche dich doch mal an der nutzung der Native-API. Ein simples Beispiel wäre eine Lokale Benachrichtigung. Die Dokumentation dazu findest du [hier](https://capacitorjs.com/docs/apis/local-notifications).
