@@ -11,7 +11,7 @@
 
 ## Aufgabe
 
-Klone zuerst das Repository. Installiere und initialisiere dann Capacitor für die Plattform deiner Wahl. Baue die Applikation, installiere und teste sie.
+Klone das Repository, baue die Anwendung und synchronisiere anschließend die Capacitor-Dateien. Starte nun die Anwendung für die Plattform deiner Wahl und teste sie.
 
 Nutze dafür die folgenden Befehle:
 ```bash
@@ -27,4 +27,4 @@ npx cap open android
 
 ## Zusatzaufgabe
 
-Wenn du schnell fertig warst mit der obigen Aufgabe, versuche dich doch mal an der nutzung der Native-API. Ein simples Beispiel wäre eine Lokale Benachrichtigung. Die Dokumentation dazu findest du [hier](https://capacitorjs.com/docs/apis/local-notifications).
+Wenn du schnell mit der obigen Aufgabe fertig warst, versuche dich doch mal an der Nutzung der Native-API. Ein einfaches Beispiel wäre die Verwendung von lokalen Benachrichtigungen. Die entsprechende Dokumentation findest du [hier](https://capacitorjs.com/docs/apis/local-notifications).
