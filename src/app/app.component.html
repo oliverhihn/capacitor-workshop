@@ -360,6 +360,7 @@
 
 <div class="content" role="main">
 
+  <!-- --------- Solution --------- -->
   <div class="card-container">
     <button class="card card-small" (click)="captureImage()">
       <span>Capture Image</span>
@@ -367,6 +368,7 @@
   </div>
 
   <img [src]="image" *ngIf="image" [style.width]="'300px'">
+  <!-- ----------------------------- -->
 
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">

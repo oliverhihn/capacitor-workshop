@@ -8,6 +8,9 @@ import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 })
 export class AppComponent {
   title = 'capacitor-workshop';
+
+
+  // --------- Solution ---------
   image = '';
 
   async captureImage() {
@@ -22,4 +25,6 @@ export class AppComponent {
       this.image = `data:image/jpeg;base64,${image.base64String}`!;
     }
   }
+  // -----------------------------
+
 }
